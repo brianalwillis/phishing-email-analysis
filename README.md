@@ -147,6 +147,58 @@ This phishing email, spoofed as coming from Hulu Membership `noreply@membershiph
 
 <img width="493" height="442" alt="Lab 45" src="https://github.com/user-attachments/assets/3a88a863-c66d-45d2-ba82-0c9dfd47a50a" />
 
+---
+
+# *`Sample-3.eml`*
+
+<img width="774" height="759" alt="Untitled Diagram drawio (2)" src="https://github.com/user-attachments/assets/4fe567f9-eae5-435b-9684-86ab3b2e12f6" /></br>
+
+This phishing email, disguised as a `McAfee` renewal notice from `noreply@customersupport.mcafee.com`, falsely warns the recipient that their antivirus subscription has expired and uses fear tactics like `WE ARE NOT RESPONSIBLE if you are HACKED` to provoke immediate action. The reply-to address (`z1ZaafVbZV@sunsy.co.uk`) is unrelated to McAfee and is a strong indicator of phishing.
+
+### 🚩 Red Flags:
+- Spoofed sender domain and unrelated reply-to address from `sunsy.co.uk`.
+- Uses scare tactics and urgency to pressure the user into clicking (`suspended`, `hacked`, `expires today`).
+- Promotes a fake `70% renewal discount` to bait the user into engaging with malicious links.
+- References to `account ID`, `username`, and `subscription status` to create a false sense of legitimacy.
+
+*Summary: This email is a phishing attempt designed to steal personal or payment information by impersonating McAfee and manipulating the user through fear-based messaging..*
+
+## EMAIL ANALYSIS TOOLS:
+
+### `VirusTotal`
+
+<img width="1309" height="515" alt="Lab 51" src="https://github.com/user-attachments/assets/98e7a8fe-2414-4f01-a7ea-467820ab045b" />
+
+### `Blue Coat Site Review`
+
+<img width="380" height="444" alt="Lab 50" src="https://github.com/user-attachments/assets/4b0dd795-cbcc-4d24-af89-79f84c68ec01" />
+
+---
+
+# Email Protection with `Bitdefender`
+
+There are many `email filtering` and protection tools available to help individuals and organizations defend against phishing attacks. For this project, I chose to test `Bitdefender` to evaluate its effectiveness in detecting and handling suspicious emails.
+
+<img width="885" height="630" alt="Lab 59" src="https://github.com/user-attachments/assets/3c5e0fd5-88ab-4fe4-9d31-03fe233abd00" /></br>
+
+I set up a test Gmail account (`brianalyst1@gmail.com`) on the `Windows 10` virtual machine and integrated it with `Bitdefender`. From the analyst’s perspective, Bitdefender’s interface provides visibility into all scanned emails for each account, categorizing them as safe or dangerous based on threat detection. This feature allows for quick assessment and response to potentially malicious messages.
+
+<img width="884" height="632" alt="Lab 67" src="https://github.com/user-attachments/assets/a58e68c6-fbac-4b43-a7cf-2959c5acf06a" /></br>
+
+From the end user’s perspective within the email account, `Bitdefender` automatically flags incoming messages with visual indicators: a red tag for `dangerous` emails and a green tag for `safe` emails. This immediate, color-coded labeling helps users quickly identify potential threats without needing technical expertise.
+
+<img width="597" height="161" alt="Lab 64" src="https://github.com/user-attachments/assets/ef99bcbd-a917-4154-b04f-cb4362c9a91d" />
+
+---
+
+*This project simulates a realistic enterprise network environment to practice and demonstrate core cybersecurity and IT infrastructure skills. It involves setting up a virtualized lab with a Windows Server 2019 domain controller, Active Directory, DHCP, and client machines, allowing hands-on experience with domain management, user provisioning, network configuration, and security policy enforcement.*
+
+**Created By:** `Briana Willis`  
+**Date:** `2025-07-15`  
+**Time:** `15:42 UTC`
+
+
+
 
 
 
