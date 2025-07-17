@@ -21,7 +21,7 @@
 - **`Bitdefender Email Protection:`**  
   Used to demonstrate how phishing emails are detected and handled from both the end-user and analyst perspectives. Showcased how suspicious emails are flagged within the user interface and how threat details (e.g., malicious attachments or URLs) are reported through Bitdefender’s security console for further analysis.
 
-## 🔍 EMAIL ANALYSIS TOOLS UTILIZED
+## 🔍 EMAIL ANALYSIS TOOLS
 
 - **[`EML Analyzer`](https://eml-analyzer.herokuapp.com/#/):**  
   A web tool used to parse `.eml` files and extract detailed header information, detect anomalies, and identify common phishing indicators.
