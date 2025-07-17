@@ -191,11 +191,11 @@ From the end user’s perspective within the email account, `Bitdefender` automa
 
 ---
 
-*This project simulates a realistic enterprise network environment to practice and demonstrate core cybersecurity and IT infrastructure skills. It involves setting up a virtualized lab with a Windows Server 2019 domain controller, Active Directory, DHCP, and client machines, allowing hands-on experience with domain management, user provisioning, network configuration, and security policy enforcement.*
+*The purpose of this project was to safely analyze real-world phishing emails in a controlled virtual environment to understand how they operate, identify key indicators of phishing, and evaluate the effectiveness of security tools like Bitdefender in detecting and flagging threats. It aimed to provide insight from both the end-user and analyst perspectives to improve email threat awareness and response..*
 
 **Created By:** `Briana Willis`  
-**Date:** `2025-07-15`  
-**Time:** `15:42 UTC`
+**Date:** `2025-07-17`  
+**Time:** `8:31 UTC`
 
 
 
