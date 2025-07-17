@@ -143,6 +143,12 @@ This phishing email, spoofed as coming from Hulu Membership `noreply@membershiph
 
 <img width="1310" height="562" alt="Lab 44" src="https://github.com/user-attachments/assets/87fc37b9-0338-43bc-9aed-475a6d34eb61" />
 
+### `Blue Coat Site Review`
+
+<img width="493" height="442" alt="Lab 45" src="https://github.com/user-attachments/assets/3a88a863-c66d-45d2-ba82-0c9dfd47a50a" />
+
+
+
 
 
 
