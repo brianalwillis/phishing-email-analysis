@@ -85,11 +85,9 @@ The objective of this project was to analyze `real-world phishing emails` in a c
 
 --- 
 
-<h1 = align=center><em>Sample-10.eml</em></h1>
+# *`Sample-1.eml`*
 
-<p align=center>
-<img width="696" height="747" alt="sample-10 drawio" src="https://github.com/user-attachments/assets/54be26cd-0d04-4a81-8d89-9da2e460e7b2" />
-</p>
+<img width="696" height="747" alt="sample-10 drawio" src="https://github.com/user-attachments/assets/54be26cd-0d04-4a81-8d89-9da2e460e7b2" /></br>
 
 This phishing email impersonates the `Microsoft account team` and is sent from a spoofed address: `no-reply@access-accsecurity.com`. It claims to notify the recipient about unusual sign-in activity from `Russia/Moscow` using `Windows 10` and `Firefox`, with the IP address `103.225.77.255`.
 
@@ -100,19 +98,54 @@ This phishing email impersonates the `Microsoft account team` and is sent from a
 
 *Summary: This email phishing attempt is designed to harvest personal information or manipulate the user into responding, potentially exposing them to further attacks.*
 
-### [`EML Analyzer:`](https://eml-analyzer.herokuapp.com/#/)
+## EMAIL ANALYSIS TOOLS:
 
-<img width="1127" height="95" alt="Lab 10" src="https://github.com/user-attachments/assets/0f91906a-848f-4628-8aab-3021e5d17876" /></br>
+### `EML Analyzer`
+
+<img width="1125" height="297" alt="Lab 7" src="https://github.com/user-attachments/assets/fe0406bb-9f6c-482f-8f09-41ae6c5e593c" />
+
+<img width="1325" height="372" alt="Lab 9" src="https://github.com/user-attachments/assets/0c146bae-601e-40c1-870c-a7579106dd55" />
+
+<img width="1127" height="95" alt="Lab 10" src="https://github.com/user-attachments/assets/0f91906a-848f-4628-8aab-3021e5d17876" />
 
 <img width="920" height="217" alt="Lab 11" src="https://github.com/user-attachments/assets/862ffa2a-ed83-4f43-a914-d433a1b54985" />
 
-### [`VirusTotal:`](https://www.virustotal.com/gui/home/upload)
+### `VirusTotal`
 
-<img width="1704" height="601" alt="Lab 12" src="https://github.com/user-attachments/assets/0aabdaa0-8eaa-4cbe-b148-5b02c1ad5b6d" /></br>
+<img width="1311" height="601" alt="Lab 12" src="https://github.com/user-attachments/assets/5dcca6f8-2683-4c39-b6d3-f0d7e8c8ccaf" /></br>
 
 This URL points to a hidden 1×1 pixel image hosted on `thebandalisty.com`, likely used as a tracking pixel to monitor when the phishing email is opened. Its presence indicates an attempt to confirm the recipient’s activity or identity, which is a common tactic in phishing campaigns.
 
 ---
+
+# *`Sample-2.eml`*
+
+<img width="768" height="762" alt="Untitled Diagram drawio (1)" src="https://github.com/user-attachments/assets/dd6afc22-14f1-4f7b-ac9a-08feed01771f" />
+
+This phishing email, spoofed as coming from Hulu Membership `noreply@membershiphulu.com`, falsely claims that the recipient’s Hulu TV membership has expired and offers a `free 90-day extension` as part of a `fake loyalty program`. It includes a prominent `EXTENDED FOR FREE` button designed to lure users into clicking.
+
+### 🚩 Red Flags:
+- A suspicious sender domain not officially tied to Hulu.
+- Urgent, reward-based language (`extend for free`) to manipulate the recipient.
+- A fake `unsubscribe` link, which may lead to malicious sites or confirm a valid email address for future targeting.
+
+*Summary: This is a typical phishing attempt aimed at harvesting personal or payment information under the guise of a membership renewal.*
+
+## EMAIL ANALYSIS TOOLS:
+
+### `EML Analyzer`
+
+<img width="1120" height="292" alt="Lab 47" src="https://github.com/user-attachments/assets/eca3fc6a-e3aa-41f3-92db-deaad28957d4" />
+
+<img width="1164" height="94" alt="Lab 48" src="https://github.com/user-attachments/assets/d19feb3c-bb5c-4487-9c71-810058c5be90" />
+
+### `VirusTotal`
+
+<img width="1310" height="562" alt="Lab 44" src="https://github.com/user-attachments/assets/87fc37b9-0338-43bc-9aed-475a6d34eb61" />
+
+
+
+
 
 
 
