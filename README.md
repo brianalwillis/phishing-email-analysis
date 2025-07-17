@@ -27,7 +27,7 @@
   A web tool used to parse `.eml` files and extract detailed header information, detect anomalies, and identify common phishing indicators.
 
 - **[`VirusTotal`](https://www.virustotal.com/gui/home/upload):**  
-  Used to scan suspicious email attachments and URLs for malware and phishing behavior using multiple antivirus engines.
+  Used to analyze suspicious email attachments, domains, IPs, and URLs to detect malware, phishing, and other threats. Leveraged multiple antivirus engines and security tools to provide a comprehensive threat report, while also contributing to the broader security community through automatic data sharing.
 
 - **[`Blue Coat Site Review`](https://sitereview.bluecoat.com/#/):**  
   Used to check the domain reputation and categorization of embedded URLs in phishing emails.
